@@ -4,9 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.4'
 
 gem 'rails', '~> 6.0.0'
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
 gem 'mysql2', '>= 0.4.4'
 gem 'puma', '~> 3.11'
-gem 'sass-rails', '~> 5'
+# gem 'sass-rails', '~> 5'
+# gem 'sassc-rails'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
